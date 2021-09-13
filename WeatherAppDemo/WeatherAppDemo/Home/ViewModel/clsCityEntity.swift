@@ -50,7 +50,7 @@ extension Decimal
     }
     var FarenheitToCelcious: String
     {
-        let iResult = self - 32  * (5/9)
+        let iResult = (self - 32)  * (5/9)
         return Decimal(string: "\(iResult)")?.TwoDigitNumber ?? ""
     }
 }
