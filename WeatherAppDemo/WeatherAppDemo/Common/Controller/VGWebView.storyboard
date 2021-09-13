@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dvm-Yk-4sj">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Web View Controller-->
+        <scene sceneID="yUq-F5-tuN">
+            <objects>
+                <viewController storyboardIdentifier="VGWebViewController" id="Dvm-Yk-4sj" customClass="VGWebViewController" customModule="WeatherAppDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="crZ-JQ-lzT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4qa-xX-3tl">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="oyT-n4-1pP">
+                                <rect key="frame" x="177" y="423" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="8Dw-YY-1ij"/>
+                                    <constraint firstAttribute="width" constant="60" id="Mra-Dz-pLg"/>
+                                </constraints>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Dnd-1w-6B2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4qa-xX-3tl" firstAttribute="leading" secondItem="Dnd-1w-6B2" secondAttribute="leading" id="52n-oL-712"/>
+                            <constraint firstItem="4qa-xX-3tl" firstAttribute="top" secondItem="crZ-JQ-lzT" secondAttribute="topMargin" id="TQM-By-4c3"/>
+                            <constraint firstItem="oyT-n4-1pP" firstAttribute="centerX" secondItem="4qa-xX-3tl" secondAttribute="centerX" id="Z3r-KD-1ez"/>
+                            <constraint firstItem="4qa-xX-3tl" firstAttribute="trailing" secondItem="Dnd-1w-6B2" secondAttribute="trailing" id="fjR-QV-KpP"/>
+                            <constraint firstItem="oyT-n4-1pP" firstAttribute="centerY" secondItem="4qa-xX-3tl" secondAttribute="centerY" id="lic-5q-tGi"/>
+                            <constraint firstItem="Dnd-1w-6B2" firstAttribute="bottom" secondItem="4qa-xX-3tl" secondAttribute="bottom" id="x50-mp-H4l"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="viwActivity" destination="oyT-n4-1pP" id="cJK-dR-QOp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OdV-D2-Myx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-54" y="-9"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
