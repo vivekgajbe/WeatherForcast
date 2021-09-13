@@ -15,8 +15,6 @@ class HomeVC: UIViewController {
     var arrCity = [clsCityEntity]()
     var arrSearchCity = [clsCityEntity]()
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.lblNoDataFound.isHidden = true
