@@ -11,6 +11,7 @@
 		EE5909F926EFAAC50016BAC7 /* WeatherAppDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5909F826EFAAC50016BAC7 /* WeatherAppDemoUITests.swift */; };
 		EE590A0926EFC9130016BAC7 /* CheckDecimalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE590A0826EFC9130016BAC7 /* CheckDecimalTests.swift */; };
 		EE590A1126EFCDCB0016BAC7 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE590A1026EFCDCB0016BAC7 /* SettingVC.swift */; };
+		EE590A1C26F0945B0016BAC7 /* CheckCelciousToFarenhite.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE590A1B26F0945B0016BAC7 /* CheckCelciousToFarenhite.swift */; };
 		EE5E5DDA26EB53740032AA1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E5DD926EB53740032AA1A /* AppDelegate.swift */; };
 		EE5E5DDC26EB53740032AA1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E5DDB26EB53740032AA1A /* SceneDelegate.swift */; };
 		EE5E5DE326EB537B0032AA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE5E5DE226EB537B0032AA1A /* Assets.xcassets */; };
@@ -59,6 +60,7 @@
 		EE5909FA26EFAAC50016BAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE590A0826EFC9130016BAC7 /* CheckDecimalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckDecimalTests.swift; sourceTree = "<group>"; };
 		EE590A1026EFCDCB0016BAC7 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		EE590A1B26F0945B0016BAC7 /* CheckCelciousToFarenhite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCelciousToFarenhite.swift; sourceTree = "<group>"; };
 		EE5E5DD626EB53740032AA1A /* WeatherAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5E5DD926EB53740032AA1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE5E5DDB26EB53740032AA1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				EE5909E826EFAAB10016BAC7 /* WeatherAppDemoTests.swift */,
 				EE5909EA26EFAAB10016BAC7 /* Info.plist */,
 				EE590A0826EFC9130016BAC7 /* CheckDecimalTests.swift */,
+				EE590A1B26F0945B0016BAC7 /* CheckCelciousToFarenhite.swift */,
 			);
 			path = WeatherAppDemoTests;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE590A0926EFC9130016BAC7 /* CheckDecimalTests.swift in Sources */,
+				EE590A1C26F0945B0016BAC7 /* CheckCelciousToFarenhite.swift in Sources */,
 				EE5909E926EFAAB10016BAC7 /* WeatherAppDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
